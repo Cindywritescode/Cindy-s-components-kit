@@ -1,0 +1,25 @@
+.container {
+  /* 先設一個寬度，後將其置中 */
+  width: 800px; 
+  margin: 0 auto;
+}
+
+/* 從container這裏做media query */
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width:500px) {
+  .container {
+    width: 400px;
+  }
+}

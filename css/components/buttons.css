@@ -1,0 +1,50 @@
+/* medium botton */
+.btn-medium {
+    color: #6e7582;
+    border: 1px solid #6e7582;
+    border-radius: 4px;
+    padding: 7px 16px;
+    transition: .3s;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 30px 30px;
+}
+
+.btn-medium:hover {
+    color: #787e8b;
+    border: 1px solid  #50545e;
+    position: relative;
+    bottom: 1px;
+}
+
+/* tree house button */
+.btn-treehouse{
+    background:linear-gradient(to bottom, #4a58a3 0%,#6670a5 100%);
+    color: white;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition:color 300ms 0s ease; 
+    display: inline-block;
+    margin: 30px 30px;
+}
+
+.btn-treehouse:hover {
+    background:linear-gradient(to bottom, #3748a7 0%,#525fa8 100%);
+    box-shadow: 1px 1px 4px rgb(167, 165, 165);
+}
+
+/* Your button */
+.btn-yours {
+    color: #f39189;
+    border: 1px solid #f39189;
+    padding: 8px 32px;
+    border-radius: 32px;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.btn-yours:hover {
+    background-color: #f39189;
+    color: white;
+    box-shadow: 1px 1px 4px #b7c3da;
+}
